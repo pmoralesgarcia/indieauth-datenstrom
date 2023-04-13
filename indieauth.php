@@ -10,5 +10,10 @@ class YellowEdit {
     
 ?>
 
+// Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+}
+
 
 <?php echo $_SERVER['REMOTE_USER']; ?>
