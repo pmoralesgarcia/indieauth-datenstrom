@@ -9,3 +9,6 @@ class YellowEdit {
     public $editable;       // page can be edited? (boolean)
     
 ?>
+
+
+<?php echo $_SERVER['REMOTE_USER']; ?>
